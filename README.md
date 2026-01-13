@@ -54,7 +54,7 @@
 
 ... (共5条记录)
 
-## 🚀 快速开始
+## 🚀 配置流程
 
 ### 1️⃣ 创建 Telegram Bot
 
@@ -184,19 +184,6 @@ Cloudflare CDN 节点测速数据
 
 ## ⭐ Star
 如果这个项目对你有帮助，请点个 Star ⭐ 支持一下！
-
-<div align="center">
-
-## 👥 贡献者
-
-<a href="https://github.com/DuoJla/cf-ip-monitor/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DuoJla/cf-ip-monitor" />
-</a>
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DuoJla/cf-ip-monitor&type=Date)](https://star-history.com/#你的用户名/cf-ip-monitor&Date)
-
-
-
 
 
 
