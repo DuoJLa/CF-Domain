@@ -41,7 +41,6 @@ def format_message(domains):
     
     for idx, domain in enumerate(domains):
         ip = domain.get("ip", "N/A")
-        avg_score = domain.get("avgScore", 0)
         avg_latency = domain.get("avgLatency", 0)
         avg_loss = domain.get("avgPkgLostRate", 0)
         
@@ -52,7 +51,6 @@ def format_message(domains):
         
         message += f"{medals[idx]} <b>第{idx+1}名</b>\n"
         message += f"📍 域名: <code>{ip}</code>\n"
-        message += f"⭐ 综合评分: <b>{avg_score}</b>\n"
         message += f"⚡ 平均延迟: {avg_latency}ms\n"
         message += f"📊 丢包率: {avg_loss:.2%}\n"
         message += f"📶 三网表现:\n"
